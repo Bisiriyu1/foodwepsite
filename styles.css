@@ -1,0 +1,625 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+header {
+  background-color: teal;
+  padding: 0px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  align-items: center;
+  color: white;
+}
+
+.logo h1{
+  font-family: 'Italianno', cursive;
+  font-size: 50px;
+}
+
+#contactContainer {
+  align-items: center;
+  color: white;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding-right: 60px;
+  padding-right: 60px;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a{
+  background-color: teal;
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
+  border: none;
+  font-size: 18px;
+  transition: transform 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  transform: scale(1.05);
+}
+
+/* Explore */
+
+#Explore {
+  background-image: url("images/istockPhoto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  padding: 50px;
+  text-align: center;
+  height: 500px;
+  padding-top: 150px;
+}
+
+#Explore h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#Explore p {
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.button {
+  display: inline-block;
+  background-color: #ff6347;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  height: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+     background-color: brown
+}
+
+#addCart {
+  color: teal;
+  font-size: 25px; ;
+}
+
+/* foodMenu */
+#foodmenu-bg {
+  background-color: beige;
+
+}
+
+#foodmenu h2 {
+  color:black;
+  background-color: beige;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#foodmenucontainer .row {
+  background-color: beige;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.card {
+  width: 350px;
+  background-color: beige;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+} 
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 350px;
+  height: 200px;
+  border-radius: 5px 5px 0 0;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-content h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: teal;
+}
+
+.card-content p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+#button {
+  display: inline-block;
+  background-color: #ff6347;
+  color: #fff;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#button:hover {
+      background-color: brown;
+}
+
+#cart-btn{
+  justify-content: space-between;
+}
+
+/* footer */ 
+
+/* backToTop */
+#backToTopContainer {
+  background-color:beige;
+}
+
+#backToTopRow {
+  justify-content: flex-end;
+}
+#backToTop {
+  background-color:beige;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+  width: 150px;
+
+}
+
+.back-to-top{
+ color:teal;
+ border: none;
+ font-weight: bold;
+ font-size: 15px;
+ text-decoration: none;
+}
+
+.back-to-top:hover {
+ text-decoration: underline;
+}
+
+
+#footerLogo {
+    background-color: teal;
+    padding: 20px;
+    padding-top: 20px;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 0 10px teal;
+  }
+
+.footerLogo h2 {
+  font-family: 'Italianno', cursive;
+  font-size: 30px;
+}
+
+.foot h3 {
+    color: white;
+    font-weight: bold;
+  }
+
+#footerLogo .row {
+     justify-content: space-between;
+     font-weight: 100;
+     font-size: 15px;
+     color: white;
+  }
+
+#footerLogo .row .footerLogo p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+.foot button {
+    text-decoration: none;
+    color:white;
+    background-color: teal;
+    border: none;
+    margin-top: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+.foot button:hover {
+    transform: scale(1.05)
+  }
+
+#bottomfoot {
+    color: white;
+    margin: auto;
+  }
+
+  /* loginPage */
+
+#loginPage {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color:beige;
+}
+
+#loginPage .row {
+  width: 400px;
+  background-color:teal;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#regPass{
+  width: 380px;
+} 
+
+.login-form button {
+  padding: 10px;
+  background-color:#f3b792;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-form button:hover {
+  background-color: salmon;
+}
+
+  /* styleRegistration */
+#registrationPage {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color:beige;
+}
+
+#registrationPage .row {
+  width: 400px;
+  background-color:teal;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registration-form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#regPass{
+  width: 380px;
+} 
+
+.registration-form button {
+  padding: 10px;
+  background-color:#f3b792;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.registration-form button:hover {
+  background-color: salmon;
+}
+
+/* dashboardPage */
+
+#dashboardPage {
+  height: 100%;
+}
+
+.sidebarDashboard {
+  background-color: beige;
+  color: black;
+  width: 250px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.sidebarDashboard ul {
+    padding-left: 20px;
+}
+
+.sidebarDashboard h3 {
+  padding-top: 10px;
+}
+
+.sidebarDashboard ul li {
+   text-decoration: none;
+   font-size: bold;
+   padding-top: 10px;
+   padding-left: 5px;
+}
+
+.contentDashboard {
+  flex: 1;
+  padding: 20px;
+}
+
+.cardDashboard {
+  background-color: beige;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cardDashboard:hover {
+  background-color:#f3f2b9;
+}
+
+.cardDashboard h2 {
+  margin-top: 0;
+}
+
+/* categoryPage */
+#CategoryContainer{
+  background-color: beige;
+}
+.category-item {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: beige;
+}
+
+.category-item:hover {
+  background-color: #f3f2b9;
+}
+
+.category-item h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.category-item p {
+  margin: 10px 0;
+}
+
+/* exploreCategoryPage */
+
+#categoryPageExplore {
+  background-image: url("images/istockPhoto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  padding: 20px;
+  text-align: center;
+  height: 180px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+#categoryPageExplore h2 {
+  font-size: 26px;
+  color: white;
+}
+
+#categoryPageExplore p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+/* foodDetails */
+
+.cartHeader {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.cartHeader h1 {
+  font-size: 1.5rem;
+}
+
+#productDetail {
+  display: flex;
+  background-color: beige;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#productDetail .row{
+  margin: 15px;
+}
+
+.product-image {
+  padding-top: 5px;
+  flex: 0 0 200px;
+  margin-right: 15px;
+  width: 600px;
+}
+
+.product-image img {
+  width: 300px;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-top: 5px;
+}
+
+.product-description {
+  padding-top: 5px;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: teal;
+}
+
+.product-ingredients {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.product-ingredients ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+.product-ingredients li {
+  margin-bottom: 5px;
+}
+
+#addCartContainer {
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* cartPage */
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+  background-color: beige;
+}
+
+.cart-items {
+  width: 50%;
+}
+
+#item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: beige;
+}
+
+#item img {
+  max-width: 100px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.item-details {
+  flex: 1;
+}
+
+.item-details h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.remove-button {
+  background-color: #ff5555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.cart-summary {
+  width: 50%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  background-color: beige;
+}
+
+.cart-summary h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.checkout-button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-top: 8px;
+}

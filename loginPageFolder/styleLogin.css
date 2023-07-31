@@ -1,0 +1,38 @@
+/* #loginPage {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+#loginPage h2 {
+    text-align: center;
+  }
+  
+#loginPage label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+#loginPage input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+#loginPage input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+#loginPage input[type="submit"]:hover {
+    background-color: #4562a0;
+  } */
