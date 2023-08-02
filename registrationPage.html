@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Registration Form</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>registrationPage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="grid.css">
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -25,19 +27,22 @@
         </ul>
       </nav>
     </header> 
-  </div> 
-  <div class="container" id="registrationPage">
-    <div class="row">
-      <form class="registration-form">
-        <h1>Registration</h1>
-        <input type="text" placeholder="Name" required>
-        <input type="email" placeholder="Email" required>
-        <input type="password" placeholder="Password" id="regPass" required>
-        <button type="submit">Register</button>
-      </form>
-    </div>
   </div>
 
+  <!-- registrationPage  -->
+  <div id="registrationMainContainer">
+     <div class="container" id="registrationPage">
+       <div class="row">
+         <form class="registration-form">
+           <h1>Registration</h1>
+           <input type="text" placeholder="Name" required>
+           <input type="email" placeholder="Email" required>
+           <input type="password" placeholder="Password" id="regPass" required>
+           <button type="submit">Register</button>
+         </form>
+       </div>
+     </div>
+  </div>
   
   <!-- backToTop -->
   <div class="container" id="backToTopContainer">
@@ -97,5 +102,7 @@
       </div>    
     </div>
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>

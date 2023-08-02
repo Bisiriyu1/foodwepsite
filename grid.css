@@ -36,11 +36,18 @@
     nav ul {
         display: block !important;
     }
-
+/* 
 	header{
-		position: relative !important ;
-	  }
+		position: relative !important;
+	} */
+
+	  .cart-items {
+		width: 100% !important;
+	}  
 	
+	.cart-summary {
+	    width: 100% !important;
+	} 
 }
 
 @media only screen and (min-width: 600px) { 
@@ -59,9 +66,9 @@
 
     nav ul {
         display: block;
-    }
-
-}
+    } 
+	
+}	
 
 @media only screen and (min-width: 768px) { 
 	.col-md-1{ width:8.33% }
