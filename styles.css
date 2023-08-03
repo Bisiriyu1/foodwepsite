@@ -291,6 +291,7 @@ nav ul li a:hover {
 .login-form h1 {
   text-align: center;
   margin-bottom: 20px;
+  color: white;
 }
 
 .login-form input {
@@ -307,7 +308,7 @@ nav ul li a:hover {
 .login-form button {
   padding: 10px;
   background-color:#f3b792;
-  color: black;
+  color: white;
   font-weight: bold;
   border: none;
   border-radius: 4px;
@@ -343,6 +344,7 @@ nav ul li a:hover {
 .registration-form h1 {
   text-align: center;
   margin-bottom: 20px;
+  color: white;
 }
 
 .registration-form input {
@@ -365,6 +367,7 @@ nav ul li a:hover {
   border-radius: 4px;
   cursor: pointer;
   width: 100%;
+  color: white;
 }
 
 .registration-form button:hover {
